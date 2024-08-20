@@ -1,0 +1,6 @@
+const orderlist=[
+{name :'laptop", price :13000},
+{name :'mobile", price :18000},
+{name :'charger", price :130},
+{name :'headphone", price :100},
+];
