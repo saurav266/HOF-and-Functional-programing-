@@ -1,0 +1,10 @@
+function randomnumbergenerator(){
+const randomNumber=math.floor(Math.random()*100);
+console,log(randomNumber);
+)
+
+function printWithInertval(){
+randomnumbergenerator();
+setInertval(randomnumbergenerator,2000);
+}
+printWithInertval();
