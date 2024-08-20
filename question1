@@ -4,3 +4,7 @@ const orderlist=[
 {name :'charger", price :130},
 {name :'headphone", price :100},
 ];
+let sum=0;
+orderlist.forEach((data) =>(sum +=data.price));
+console.log(`the total price is Rs.&{sum}1);
+
