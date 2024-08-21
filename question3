@@ -1,0 +1,12 @@
+let expanses=[
+{amount :100,category:"Utilities"},
+{amount :200,category:"groceries"},
+{amount :50,category:"Entertainment"},
+];
+
+let expensesWithTax=expense.map((expense) =>{
+let tax=expense.amount *0.1;
+return {....expense,tax:tax};
+});
+
+console.log("Expenses with tax :",expensesWithTax);
