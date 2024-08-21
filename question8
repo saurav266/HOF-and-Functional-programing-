@@ -1,0 +1,8 @@
+let evenNumbers=[];
+
+originalNumbers.forEach(number =>{
+if(number%2===0){
+evenNumbers.push(number);
+}
+});
+console.log("even number:',evenNumbers);
