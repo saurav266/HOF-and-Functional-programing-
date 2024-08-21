@@ -1,0 +1,8 @@
+let expanses=[
+{amount :100,category:"Utilities"},
+{amount :200,category:"groceries"},
+{amount :50,category:"Entertainment"},
+];
+
+let totalExpenses=expenses.reduce((acc,expense)=> acc+ expense.amount,0);
+console.log("total expenses:", totalExpenses);
